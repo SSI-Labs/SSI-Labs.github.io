@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ssi-labs.github.io/mbx-ontology#"
+     xml:base="https://ssi-labs.github.io/mbx-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://ssi-labs.github.io/mbx-ontology#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ssi-labs.github.io/mbx-ontology#Name -->
+
+    <owl:ObjectProperty rdf:about="https://ssi-labs.github.io/mbx-ontology#Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ssi-labs.github.io/mbx-ontology#Name"/>
+                <owl:someValuesFrom rdf:resource="https://ssi-labs.github.io/mbx-ontology#DigitalEntity"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ssi-labs.github.io/mbx-ontology#DigitalEntity -->
+
+    <owl:Class rdf:about="https://ssi-labs.github.io/mbx-ontology#DigitalEntity"/>
+    
+
+
+    <!-- https://ssi-labs.github.io/mbx-ontology#SystemModel -->
+
+    <owl:Class rdf:about="https://ssi-labs.github.io/mbx-ontology#SystemModel">
+        <rdfs:subClassOf rdf:resource="https://ssi-labs.github.io/mbx-ontology#DigitalEntity"/>
+    </owl:Class>
+</rdf:RDF>
