@@ -1,9 +1,20 @@
 {
-   "@context":
-   {
-      "Person": "http://xmlns.com/foaf/0.1/Person",
+
+    "@context": {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "schema": "http://schema.org/",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "name": "http://xmlns.com/foaf/0.1/name",
-      "postalCode": "http://www.w3.org/2006/vcard/ns#postal-code"
-   }
+      "mbx": "https://ssi-labs.github.io/mbx.json#"
+    },
+    
+    "@graph": 
+    [ 
+    {
+      "@id": "mbx:DigitalAsset",
+      "@type": "rdfs:Class",
+      "rdfs:label": "DigitalAsset",
+
+    }
+    ]
 }
