@@ -1,0 +1,9 @@
+{
+   "@context":
+   {
+      "Person": "http://xmlns.com/foaf/0.1/Person",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "name": "http://xmlns.com/foaf/0.1/name",
+      "postalCode": "http://www.w3.org/2006/vcard/ns#postal-code"
+   }
+}
