@@ -1,21 +1,23 @@
 {
-  
-  
   "@context": {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "schema": "https://schema.org/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "mbx": "http://mbx.org/",
-    
-     "@id": "mbx:DigitalAsset",
+    "mbx": "http://mbx.org#"
+  },
+  "@graph": [
+    {
+      "@id": "mbx:DigitalAsset",
       "@type": "rdfs:Class",
-      "rdfs:comment": "",
-      "rdfs:label": "schema:Thing",
+      "rdfs:comment": "The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.",
+      "rdfs:label": "GeoShape",
       "rdfs:subClassOf": {
         "@id": "schema:StructuredValue"
+      },
+      "schema:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_rNews"
       }
-  }
-
-
+    }
+  ]
 }
