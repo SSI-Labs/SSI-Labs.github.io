@@ -13,7 +13,8 @@
     {
       "@id": "mbx:DigitalAsset",
       "@type": "rdfs:Class",
-      "rdfs:label": "DigitalAsset",
+      "rdfs:label": "DigitalAsset"
+        
 
     }
     ]
